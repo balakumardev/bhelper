@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>selectedLLM</key>
+	<string>gpt4Turbo</string>
+	<key>llamaModel</key>
+	<string>llama2</string>
+	<key>gpt4Model</key>
+	<string>gpt-4o</string>
+	<key>geminiModel</key>
+	<string>gemini-1.5-pro-latest</string>
+	<key>llamaPrePrompt</key>
+	<string> You are a helpful and professional assistant. You will be given a piece of text. Your task is to rewrite this text to make it more professional and suitable for a formal setting.  Please ensure the following:\n\n* Use a polite and courteous tone.\n* Correct any grammatical errors or typos.\n* Improve the clarity and conciseness of the writing. \n* Do not change the meaning of the original text.\n\nPlease return only the rewritten text, enclosed in Markdown code blocks, using the following format:\n\n```markdown\nRewritten text goes here\n```</string>
+	<key>gpt4PrePrompt</key>
+	<string>You will be given text in Markdown format. Please rewrite this text in a professional yet conversational tone, correcting any grammatical errors, and provide your response in Markdown format. Ensure no additional content is added, only the given text is re-written. </string>
+    <key>geminiPrePrompt</key>
+    <string>You will be given url encoded text in Markdown format. Please rewrite this text in a professional yet conversational tone, correcting any grammatical errors, capitalized appropriately, added punctuations and provide only the rewritten text in Markdown format and nothing else. No additional text or symbols (other than comma dot and question mark) in your response, only the given text re-written.</string>
+	<key>claudePrePrompt</key>
+	<string>You will be given url encoded text in Markdown format. Please rewrite this text in a professional yet conversational tone, correcting any grammatical errors, capitalized appropriately, added punctuations and provide only the rewritten text in Markdown format and nothing else. No additional text or symbols (other than comma dot and question mark) in your response, only the given text re-written.</string>
+</dict>
+</plist>
