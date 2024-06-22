@@ -4,13 +4,13 @@
   <img src="BHelper/resources/icon.png" width="128" alt="BHelper Icon">
 </p>
 
-![BHelper](img/bhelper.gif)
-
 **Enhance your writing with the power of AI, right from your Mac's menu bar!**
 
 BHelper is a macOS menu bar app that lets you effortlessly rewrite selected text using state-of-the-art AI models from leading providers. 
 
 **Note:** This app is currently unsigned due to the $99 Apple Developer Program fee, which I'm in the process of obtaining while actively developing multiple applications.
+
+![BHelper](img/bhelper.gif)
 
 ## ✨ Features
 
